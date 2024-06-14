@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 
+	ratelimit "github.com/breathbath/krakend-ratelimit/v3/proxy"
 	otellura "github.com/krakend/krakend-otel/lura"
 	amqp "github.com/krakendio/krakend-amqp/v2"
 	cel "github.com/krakendio/krakend-cel/v2"
@@ -16,7 +17,6 @@ import (
 	oauth2client "github.com/krakendio/krakend-oauth2-clientcredentials/v2"
 	opencensus "github.com/krakendio/krakend-opencensus/v2"
 	pubsub "github.com/krakendio/krakend-pubsub/v2"
-	ratelimit "github.com/krakendio/krakend-ratelimit/v3/proxy"
 	"github.com/luraproject/lura/v2/config"
 	"github.com/luraproject/lura/v2/logging"
 	"github.com/luraproject/lura/v2/proxy"

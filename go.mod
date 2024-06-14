@@ -3,6 +3,7 @@ module github.com/krakendio/krakend-ce/v2
 go 1.22
 
 require (
+	github.com/breathbath/krakend-ratelimit/v3 v3.1.1
 	github.com/gin-gonic/gin v1.9.1
 	github.com/go-contrib/uuid v1.2.0
 	github.com/krakend/krakend-otel v0.5.0
@@ -30,7 +31,6 @@ require (
 	github.com/krakendio/krakend-oauth2-clientcredentials/v2 v2.0.1
 	github.com/krakendio/krakend-opencensus/v2 v2.1.0
 	github.com/krakendio/krakend-pubsub/v2 v2.0.1
-	github.com/krakendio/krakend-ratelimit/v3 v3.1.0
 	github.com/krakendio/krakend-rss/v2 v2.0.1
 	github.com/krakendio/krakend-usage/v2 v2.0.0
 	github.com/krakendio/krakend-viper/v2 v2.0.1
@@ -165,6 +165,7 @@ require (
 	github.com/krakendio/binder v0.0.0-20230413105421-1bbe94e65f45 // indirect
 	github.com/krakendio/flatmap v1.1.1 // indirect
 	github.com/krakendio/httpcache v0.0.0-20221129153752-65a87a5c2bc5 // indirect
+	github.com/krakendio/krakend-ratelimit/v3 v3.1.0 // indirect
 	github.com/kylelemons/godebug v1.1.0 // indirect
 	github.com/leodido/go-urn v1.4.0 // indirect
 	github.com/magiconair/properties v1.8.7 // indirect
