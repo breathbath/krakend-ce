@@ -3,14 +3,7 @@ name: security
 
 # Run for all pushes to master and pull requests when Go or YAML files change
 on:
-  push:
-    branches:
-      - master
-  pull_request:
-    # The branches below must be a subset of the branches above
-    branches: [ master ]
-  schedule:
-    - cron: '23 20 * * 2'
+  workflow_dispatch:
 
 jobs:
   security-repo-scan:
