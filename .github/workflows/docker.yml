@@ -16,6 +16,10 @@ jobs:
         uses: docker/setup-qemu-action@v3
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
+      - name: Set the environment variables
+        run: |
+          echo "GOLANG_VERSION=$(grep -m 1 GOLANG_VERSION Makefile | sed 's/^.*= //g')" >> $GITHUB_ENV
+          echo "ALPINE_VERSION=$(grep -m 1 ALPINE_VERSION Makefile | sed 's/^.*= //g')" >> $GITHUB_ENV
       - name: Docker meta
         id: meta
         uses: docker/metadata-action@v5
@@ -38,5 +42,7 @@ jobs:
           file: Dockerfile
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
-          build-args: version=${{ steps.meta.outputs.version }}
+          build-args: |
+            GOLANG_VERSION=${{ env.GOLANG_VERSION }}
+            ALPINE_VERSION=${{ env.ALPINE_VERSION }}
           push: true
