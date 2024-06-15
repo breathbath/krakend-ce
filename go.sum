@@ -171,6 +171,8 @@ github.com/breathbath/krakend-ratelimit/v3 v3.0.0-20240614212716-d5d806359467 h1
 github.com/breathbath/krakend-ratelimit/v3 v3.0.0-20240614212716-d5d806359467/go.mod h1:67luAK/mqiSu1QCSzRuBwhWoY0Zu9QwnzfL30ZpquzQ=
 github.com/breathbath/krakend-ratelimit/v3 v3.1.1 h1:cVBJWKKdrOG0CsntpoP42qK5HoEO7T+K6w4esChzuUk=
 github.com/breathbath/krakend-ratelimit/v3 v3.1.1/go.mod h1:67luAK/mqiSu1QCSzRuBwhWoY0Zu9QwnzfL30ZpquzQ=
+github.com/breathbath/krakend-ratelimit/v3 v3.1.2 h1:rFkFOQCOmkgrqsN8SY/HH3OGiLqtpisVatgdzX3hof0=
+github.com/breathbath/krakend-ratelimit/v3 v3.1.2/go.mod h1:67luAK/mqiSu1QCSzRuBwhWoY0Zu9QwnzfL30ZpquzQ=
 github.com/bytedance/sonic v1.5.0/go.mod h1:ED5hyg4y6t3/9Ku1R6dU/4KyJ48DZ4jPhfY1O2AihPM=
 github.com/bytedance/sonic v1.10.0-rc/go.mod h1:ElCzW+ufi8qKqNW0FY314xriJhyJhuoJ3gFZdAHF7NM=
 github.com/bytedance/sonic v1.10.2 h1:GQebETVBxYB7JGWJtLBi07OVzWwt+8dWA00gEVW2ZFE=
