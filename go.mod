@@ -3,7 +3,7 @@ module github.com/krakendio/krakend-ce/v2
 go 1.22
 
 require (
-	github.com/breathbath/krakend-ratelimit/v3 v3.1.2
+	github.com/breathbath/krakend-ratelimit/v3 v3.1.3
 	github.com/gin-gonic/gin v1.9.1
 	github.com/go-contrib/uuid v1.2.0
 	github.com/krakend/krakend-otel v0.5.0
